@@ -1,0 +1,6 @@
+TP3.java es la clase principal que va a resolver el problema
+Tnorma.java es una interfaz que tiene una funcion para obtener la tnorma de 2 valores
+Godel, Lukasiewicz y Goguen implementan esa interfaz
+ConjuntoBase es una clase que solo tiene los elementos como un vector de strings
+Conjuntos extiende de ConjuntoBase y agrega los valores de pertenencia
+
