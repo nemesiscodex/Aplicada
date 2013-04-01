@@ -66,12 +66,24 @@ public class TP3{
 		t4 = new Minimo();
 		t5 = new Producto();
 		t6 = new Interseccion();
-		//Ejercicio 1
+
+		System.out.println();
 		mt1 = tp.desplegarMatriz(t1);
-		mt2 = tp.desplegarMatriz(t2);
-		mt3 = tp.desplegarMatriz(t3);
 		tp.maxt(mt1,t4);
+		tp.maxt(mt1,t5);
+		tp.maxt(mt1,t6);
+
+		System.out.println();
+		mt2 = tp.desplegarMatriz(t2);
+		tp.maxt(mt2,t4);
 		tp.maxt(mt2,t5);
+		tp.maxt(mt2,t6);
+
+		System.out.println();
+		mt3 = tp.desplegarMatriz(t3);
+		tp.maxt(mt3,t4);
+		tp.maxt(mt3,t5);
 		tp.maxt(mt3,t6);
+		
 	}
 }
